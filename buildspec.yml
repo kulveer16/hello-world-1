@@ -11,6 +11,7 @@ phases:
       - rbenv global 2.6.0
       - gem install bundler
       - bundle install --path ./bundle
+      - bundle config disable_platform_warnings true
 
 artifacts:
   files:
